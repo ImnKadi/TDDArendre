@@ -21,6 +21,12 @@ public class Dictionary {
     }  
 
 
+    public String getName(){
+        return name;
+    }
+
+
+
     public int IsEmpty(String name){
         return 2;
     }
