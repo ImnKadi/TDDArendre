@@ -27,16 +27,16 @@ public class Dictionary {
 
 
     public int IsEmpty(String name){
-        return 2;
+        return 0;
     }
 
 
-    public String AddTranslation(String AddTranslation){
-        this.AddTranslation = AddTranslation;
+    public String AddTranslation(String name){
+        this.AddTranslation = name;
     }
 
     public String getTranslation(String getTranslation){
-        this.getTranslation = getTranslation;
+        this.getTranslation = name;
     }
 
 }
