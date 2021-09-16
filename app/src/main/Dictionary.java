@@ -6,7 +6,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class Dictionary {
 
 
-    String name;
+    private String name;
 
      public Dictionary(String name) {  
          this.name = name;  
@@ -19,5 +19,10 @@ public class Dictionary {
      public  void setName(String name) {  
          this.setName = name;  
     }  
+
+
+    public int IsEmpty(String name){
+        return 2;
+    }
 
 }
