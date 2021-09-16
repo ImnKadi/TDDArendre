@@ -31,10 +31,12 @@ public class Dictionary {
     }
 
 
-    public String GetTranslation(){
+    public String AddTranslation(String AddTranslation){
+        this.AddTranslation = AddTranslation;
+    }
 
-        return this.GetTranslation = "essai";
-
+    public String getTranslation(String getTranslation){
+        this.getTranslation = getTranslation;
     }
 
 }
