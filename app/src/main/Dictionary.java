@@ -6,18 +6,18 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class Dictionary {
 
 
-    String Undictionnaire;
+    String name;
 
-     public Dictionary(String Undictionnaire) {  
-         this.Undictionnaire = Undictionnaire;  
+     public Dictionary(String name) {  
+         this.name = name;  
     }  
 
-    public String getUndictionnaire() {  
-         return  this.Undictionnaire;  
+    public String getName() {  
+         return  this.name = "Example";
     }  
       
-     public  void setUndictionnaire(String Undictionnaire) {  
-         this.Undictionnaire = Undictionnaire;  
+     public  void setName(String name) {  
+         this.setName = name;  
     }  
 
 }
