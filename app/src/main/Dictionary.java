@@ -35,7 +35,7 @@ public class Dictionary {
         this.AddTranslation = name;
     }
 
-    public String getTranslation(String getTranslation){
+    public String getTranslation(String name){
         this.getTranslation = name;
     }
 
