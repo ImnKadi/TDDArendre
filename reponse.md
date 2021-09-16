@@ -5,5 +5,4 @@ Junit permet de faire des test unitaires et Hamcrest permet de rendre le code li
 
 
 Triangulation
-2)
-
+2) Nan il faut les 2 méthodes pour pouvoir tester.
