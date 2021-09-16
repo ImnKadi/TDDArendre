@@ -1,2 +1,2 @@
 [ ] 1- getName()
-[ ] 2- isEmpty
+[ ] 2- isEmpty()
