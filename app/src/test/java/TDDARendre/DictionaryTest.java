@@ -29,5 +29,13 @@ public class DictionaryTest {
                 dict.addTranslation("contre", "against");
                 assertThat(dict.getTranslation("contre"), equalsTo("against"));
         }
+
+    @Test
+    public void testOneTranslation() {
+        dict.addTranslation("contre", "against");
+        dict.addTranslation("Hello", "Bonjour");
+        assertEquals(dict.getTranslation("contre"), "against");
+        assertEquals(dict.getTranslation("Hello"), "Bonjour");
+    }
     
 }
