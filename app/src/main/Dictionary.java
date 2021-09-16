@@ -1,48 +1,43 @@
-import org.junit.Test;
+package tdd;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
-import java.util.List;
+import java.util.ArrayList;
 
 public class Dictionary {
 
+    String Undictionnaire;
+    private ArrayList<String> Mot;
+    private ArrayList<String> trad;
 
-    private String name;
-
-     public Dictionary(String name) {  
-         this.name = name;  
-    }  
-
-
-    public String getName() {  
-         return  this.name = "Example";
-    }  
-      
-     public  void setName(String name) {  
-         this.setName = name;  
-    }  
-
-
-    public String getName(){
-        return name;
+    public Dictionary(String Undictionnaire) {
+        this.Undictionnaire = Undictionnaire;
+        Mot = new ArrayList<>();
+        trad = new ArrayList<>();
     }
 
-    list Arraylist 
-
-
-    public boolean IsEmpty(String name){
-        return true;
+    public String getUndictionnaire() {
+        return this.Undictionnaire;
     }
 
-
-    public String AddTranslation(String mot){
-        this.AddTranslation = mot;
-
+    public void setUndictionnaire(String Undictionnaire) {
+        this.Undictionnaire = Undictionnaire;
     }
 
-    public String getTranslation(String mot, String mot2){
-        this.getTranslation = mot;
-        this.getTranslation = mot2;
+    public void addTranslation(String mot, String traduction) {
+        this.Mot.add(mot);
+        this.trad.add(traduction);
+        System.out.println("le mot " + mot + " a pour traduction " + traduction);
+    }
+
+    public String getTranslation(String mot) {
+        int index = 0;
+        System.out.println("Le programme cherche la traduction de :" + mot);
+        for (String s : Mot) {
+            if (mot.equals(s)) {
+                return trad.get(index);
+            }
+            index++;
+        }
+        return null;
     }
 
 }
