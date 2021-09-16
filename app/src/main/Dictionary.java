@@ -2,6 +2,7 @@ import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
+import java.util.List;
 
 public class Dictionary {
 
@@ -11,6 +12,7 @@ public class Dictionary {
      public Dictionary(String name) {  
          this.name = name;  
     }  
+
 
     public String getName() {  
          return  this.name = "Example";
@@ -25,18 +27,22 @@ public class Dictionary {
         return name;
     }
 
+    list Arraylist 
 
-    public int IsEmpty(String name){
-        return 0;
+
+    public boolean IsEmpty(String name){
+        return true;
     }
 
 
-    public String AddTranslation(String name){
-        this.AddTranslation = name;
+    public String AddTranslation(String mot){
+        this.AddTranslation = mot;
+
     }
 
-    public String getTranslation(String name){
-        this.getTranslation = name;
+    public String getTranslation(String mot, String mot2){
+        this.getTranslation = mot;
+        this.getTranslation = mot2;
     }
 
 }
