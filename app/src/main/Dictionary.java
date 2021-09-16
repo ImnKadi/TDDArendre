@@ -26,9 +26,15 @@ public class Dictionary {
     }
 
 
-
     public int IsEmpty(String name){
         return 2;
+    }
+
+
+    public String GetTranslation(){
+
+        return this.GetTranslation = "essai";
+
     }
 
 }
