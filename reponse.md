@@ -5,4 +5,5 @@ Junit permet de faire des test unitaires et Hamcrest permet de rendre le code li
 
 
 Triangulation
-2) Nan il faut les 2 méthodes pour pouvoir tester.
+2) Nan il faut les 2 méthodes pour pouvoir tester. Si on ne fait qu'ajouter dans le dictionnaire, on ne pourra pas vérifier ce qu'on a ajouté avec le get. De même, on ne peut pas vérifier ce qu'il ya dans le dictionnaire si on n'ajoute rien dedans.
+

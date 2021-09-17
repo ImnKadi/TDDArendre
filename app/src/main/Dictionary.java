@@ -1,12 +1,19 @@
 package tdd;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.List;
+
+
 
 public class Dictionary {
+
 
     String Undictionnaire;
     private ArrayList<String> Mot;
     private ArrayList<String> trad;
+    
 
     public Dictionary(String Undictionnaire) {
         this.Undictionnaire = Undictionnaire;
